@@ -1,29 +1,17 @@
-
-
-
-import Menu from "./template/Menu";
-import Products from "./template/Products";
-import Slider from "./template/Slider";
-
-
+import Gallery from "./template/Gallery";
+import Megamenu from "./template/Megamenu";
+import TestMUI from "./template/TestMUI";
 
 function App() {
   return (
     <div className="App">
-      <Menu />
-      
-      <Slider />
-      <div style={{display: "flex", flexWrap:"wrap"}}>
-      <Products />
-      <Products />
-      <Products />
-      <Products />
-      <Products />
-      <Products />
-      </div>
- 
-     
-     
+      <Megamenu />
+      <br />
+      <Gallery />
+
+      <br />
+
+      <TestMUI />
     </div>
   );
 }
